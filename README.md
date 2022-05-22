@@ -10,4 +10,4 @@
 3. Round numbers to 3 decimal places
 
 ## Bonus [Completed]
-1. Add an input for the user to change the number and automatically recalculate values when it changes.
+Add an input for the user to change the number and automatically recalculate values when it changes.
