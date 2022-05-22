@@ -4,10 +4,10 @@
 
 > You will input a number in the code and it will spit out all of the conversion between Metric & Imperial in length, volume, and mass
 
-## Requirements [Achieved]
+## Requirements [Completed]
 1. Save number to a viable in code
 2. When app loads, do calculations and display the results
 3. Round numbers to 3 decimal places
 
-## Bonus [Achieved]
+## Bonus [Completed]
 1. Add an input for the user to change the number and automatically recalculate values when it changes.
