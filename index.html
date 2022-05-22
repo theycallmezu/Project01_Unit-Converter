@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <head>
+            <link rel="stylesheet" href="index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+        </head>
+
+        <title>Unit Converter: Metric/Imperial</title>
+    </head>
+
+    <body>
+        <div class="app-wrapper">
+                <div id="top-box">
+                    <h1 id="header">Metric/Imperial unit conversion</h1>
+                    <input id="userInput" value="0" name="fName" type="text" class="form-control"/>
+                    <p id="error-message">Don't be shy, pick a number.</p>
+                    <button id="number-button" onclick="numberSelector()">Convert Unit</button>           
+                </div>
+                <div id="bottom-box">
+                    <div>
+                        <h4>Length (Meter/Feet)</h4>
+                        <p>
+                            <span id="meter">0</span> meter(s) = <span id="meter-m">0.000</span> feet | 
+                            <span id="feet">0</span> feet = <span id="feet-m">0</span> meter(s)
+                        </p>
+                    </div> 
+                    <div>
+                        <h4>Volume (Liters/Gallons)</h4>
+                        <p>
+                            <span id="liter">0</span> liter(s) = <span id="liter-m">0.000</span> gallon(s) | 
+                            <span id="gallon">0</span> gallon(s) = <span id="gallon-m">0.000</span> liter(s)
+                        </p>
+                    </div>  
+                    <div>
+                        <h4>Mass (Kilograms/Pounds)</h4>
+                        <p>
+                            <span id="kilo">0</span> kilo(s) = <span id="kilo-m">0.000</span> pound(s) |
+                            <span id="pound">0</span> pound(s) = <span id="pound-m">0.000</span> kilo(s)
+                        </p>
+                    </div>  
+                </div>
+        </div>       
+        <script src="index.js"></script>
+    </body>
+
+</html>
